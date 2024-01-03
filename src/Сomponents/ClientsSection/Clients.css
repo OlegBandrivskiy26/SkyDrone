@@ -1,0 +1,63 @@
+.clients{
+    width: 100%;
+    height: 884px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clients__container{
+    width: 280px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+}
+.clients__title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4B4B4B;
+}
+.clients__logo__grp{
+    width: 184px;
+    height: 664px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.clients__logo{
+    width: 184px;
+    height: 40px;
+    background-size: cover;
+}
+.remix{
+    width: 147px;
+    height: 37px;
+    background-image: url(../img/Remix.png);
+}
+.stencil{
+    width: 184px;
+    height: 38px;
+    background-image: url(../img/stenciljs.png);
+}
+.particle{
+    background-image: url(../img/particle.png);
+}
+.shippable{
+    height: 43px;
+    background-image: url(../img/shhipable.png);
+}
+.atom{
+    background-image: url(../img/Atom.png);
+}
+.terraform{
+    background-image: url(../img/Teraform.png);
+    height: 44px;
+}
+.rackspace{
+    background-image: url(../img/rackspace.png);
+    height: 36px;
+}

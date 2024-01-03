@@ -1,0 +1,68 @@
+.talk__us{
+    width: 100%;
+    height: 934px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.talk__us__container{
+    width: 280px;
+    height: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.talk__us__grp{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.title__talk_us{
+    font-weight: 700;
+    font-size: 16px;
+    color: #c4730a;
+}
+.subtitle__talk_us{
+    font-weight: 700;
+    font-size: 28px;
+    color: #4b4b4b;
+    margin-top: 16px;
+}
+.post__img{
+    width: 26px;
+    height: 23px;
+    background-image: url(../img/Email.png);
+    background-size: cover;
+}
+.phone__img{
+    width: 24px;
+    height: 26px;
+    background-image: url(../img/phone.png);
+    background-size: cover;
+}
+.addres__img{
+    width: 19px;
+    height: 26px;
+    background-image: url(../img/adres.png);
+    background-size: cover;
+}
+.talk__us__grp__title{
+    font-weight: 700;
+    font-size: 32px;
+    color: #4b4b4b;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.talk__us__grp__contact{
+    font-weight: 400;
+    font-size: 16px;
+    color: #4b4b4b;
+}
+.map{
+    width: 280px;
+    height: 205px;
+    border-radius: 2px;
+    border: none;
+}

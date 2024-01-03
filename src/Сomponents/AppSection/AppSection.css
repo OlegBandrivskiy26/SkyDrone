@@ -1,0 +1,46 @@
+.app{
+    width: 100%;
+    height: 494px;
+    background: rgb(212,140,4);
+    background: linear-gradient(90deg, rgba(212,140,4,1) 14%, rgba(179,89,17,1) 90%);  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.app__container{
+    width: 280px;
+    height: 366px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+.app__title{
+    font-weight: 700;
+    font-size: 32px;
+    color: #FCF6F0;
+}
+.app__about{
+    font-weight: 400;
+    font-size: 20px;
+    color: #FCF6F0;
+}
+.btn__appstore{
+    width: 216px;
+    height: 70px;
+    background-image: url(../img/App\ Store.png);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+}
+.btn__playmarket{
+    width: 236px;
+    height: 70px;
+    background-image: url(../img/play.png);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+}

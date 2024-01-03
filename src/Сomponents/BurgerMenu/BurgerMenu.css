@@ -1,0 +1,28 @@
+.burger__menu{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(212,140,4);
+    background: linear-gradient(90deg, rgba(212,140,4,1) 14%, rgba(179,89,17,1) 90%);  
+}
+.burger__menu__items{
+    color: #fcf6f0;
+    margin-bottom: 20px;
+    position: relative;
+}
+.left, .burger__menu__items::before{
+    content: '';
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fcf6f0;
+    transition: 0.2s;
+}
+.left, .burger__menu__items:hover::before{
+    width: 100%;
+}
